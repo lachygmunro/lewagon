@@ -1,0 +1,73 @@
+body{
+    background: rgb(245,245,245);
+    color: green;
+    font-size: 20px;
+    font-family: Helvetica;
+    margin: 0;
+  }
+
+  h1{
+    font-family: Courier;
+    color: red;
+    font-weight: lighter;
+    font-size: 10px;
+  }
+
+  h2 {
+    font-family: Courier;
+    color: black;
+    font-weight: lighter;
+    font-size: 30px;
+  }
+
+  a {
+    color: yellow;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: purple;
+  }
+
+  #header{
+    text-align: center;
+    background-image: url("images/unsplash.jpg");
+    background-size: cover;
+    padding: 120px;
+    background-position: center;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+  }
+
+  #header h1 {
+    color: white;
+    font-size: 60px;
+  }
+
+  #header p {
+    color: white;
+    opacity: 0.8;
+    font-size: 25px;
+    font-weight: lighter;
+  }
+
+  #footer{
+    padding: 30px;
+    background: rgb(30, 30, 30);
+    color: lightgrey;
+  }
+
+  .card{
+    padding: 50px;
+    font-weight: lighter;
+    text-align: center;
+  }
+
+  #footer a {
+    color: lightgrey;
+    font-size: 15px;
+  }
+  
+  #footer a:hover {
+    color: white;
+  }
